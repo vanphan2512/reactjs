@@ -1,0 +1,38 @@
+.client {
+  margin: 90px 0px; }
+  .client .item {
+    width: 50%;
+    float: left;
+    max-height: 400px; }
+    @media (max-width: 991px) {
+      .client .item {
+        width: 100%;
+        float: none; }
+        .client .item img {
+          height: 100%;
+          width: 100%; } }
+    .client .item.client-info {
+      padding-right: 90px;
+      display: table;
+      height: 390px; }
+      @media (max-width: 991px) {
+        .client .item.client-info {
+          max-height: 100%;
+          height: auto;
+          margin-top: 30px;
+          padding-right: 0; } }
+      .client .item.client-info .group-info {
+        display: table-cell;
+        vertical-align: middle; }
+        .client .item.client-info .group-info h3 {
+          font-size: 36px;
+          font-family: "Roboto-Light";
+          line-height: 46px;
+          color: #333;
+          margin-bottom: 20px; }
+        .client .item.client-info .group-info p {
+          color: #637280;
+          font-family: "Lato-Regular";
+          font-size: 18px;
+          line-height: 28px;
+          margin-bottom: 40px; }

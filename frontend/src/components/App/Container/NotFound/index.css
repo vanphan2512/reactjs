@@ -1,0 +1,34 @@
+.page-not-found {
+  background: url("images/1.jpg") no-repeat center 0px;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 85px; }
+  .page-not-found .content {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center; }
+    .page-not-found .content .title {
+      font-size: 14em;
+      letter-spacing: 20px;
+      color: #fff; }
+      .page-not-found .content .title span {
+        color: #fbb034; }
+    .page-not-found .content .short-title {
+      font-size: 1.2em;
+      color: #fff;
+      font-weight: 900;
+      line-height: 1.8em; }
+    .page-not-found .content .desc {
+      font-size: 0.9em;
+      color: #fff;
+      line-height: 1.8em;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin: 1.5em auto 2.5em; }
+      .page-not-found .content .desc a {
+        color: #fbb034; }

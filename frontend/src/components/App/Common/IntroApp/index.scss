@@ -1,0 +1,50 @@
+.client{
+	margin: 90px 0px;
+	
+	.item{
+		width: 50%;
+		float: left;
+		max-height: 400px;
+		@media (max-width: 991px) {
+			width: 100%;
+			float: none;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+		&.client-info{
+			padding-right: 90px;
+			display: table;
+			height: 390px;
+			@media (max-width: 991px) {
+				max-height: 100%;
+				height: auto;
+				margin-top: 30px;
+				padding-right: 0;
+			}
+			.group-info{
+				display: table-cell;
+				vertical-align: middle;
+				h3{
+					font-size: 36px;
+					font-family: "Roboto-Light";
+					line-height: 46px;
+					color: #333;
+					margin-bottom: 20px;
+				}
+				p{
+					color: #637280;
+					font-family: "Lato-Regular";
+					font-size: 18px;
+					line-height: 28px;
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+	
+	.client-img{
+		
+	}
+}

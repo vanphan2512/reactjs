@@ -1,0 +1,135 @@
+.footer-page {
+  background-color: #1B1B1C;
+  padding: 80px 0 40px; }
+  .footer-page .logo-footer {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Lato-Medium"; }
+    @media (max-width: 767px) {
+      .footer-page .logo-footer {
+        text-align: center; } }
+  @media (max-width: 767px) {
+    .footer-page .footer-page-right .subscribe {
+      text-align: center; } }
+  .footer-page .footer-page-right p {
+    color: #FFFFFF;
+    font-family: "Lato-Medium";
+    font-size: 27px;
+    line-height: 39px; }
+    @media (max-width: 767px) {
+      .footer-page .footer-page-right p {
+        text-align: center; } }
+  .footer-page .footer-page-right .mailto {
+    color: #FFFFFF;
+    font-family: "Lato-Medium";
+    font-size: 27px;
+    line-height: 39px;
+    border-bottom: 2px solid #fff; }
+    @media (max-width: 767px) {
+      .footer-page .footer-page-right .mailto {
+        text-align: center; } }
+  .footer-page .footer-page-right .menu-footer {
+    margin-bottom: 60px; }
+    .footer-page .footer-page-right .menu-footer ul {
+      padding-left: 0;
+      float: left;
+      margin-right: 110px;
+      margin-top: 60px;
+      margin-bottom: 0; }
+      .footer-page .footer-page-right .menu-footer ul:last-child {
+        margin-right: 0; }
+      .footer-page .footer-page-right .menu-footer ul li {
+        list-style: none; }
+        .footer-page .footer-page-right .menu-footer ul li a {
+          text-align: left;
+          color: #868E96;
+          font-family: "Lato-Regular";
+          font-size: 16px;
+          line-height: 19px; }
+          .footer-page .footer-page-right .menu-footer ul li a:hover {
+            color: #fff;
+            text-decoration: none; }
+    @media (max-width: 767px) {
+      .footer-page .footer-page-right .menu-footer ul {
+        text-align: center;
+        margin-right: 0;
+        width: 33%; }
+        .footer-page .footer-page-right .menu-footer ul:first-child {
+          float: left; }
+        .footer-page .footer-page-right .menu-footer ul:last-child {
+          float: right; } }
+  .footer-page .follow-us {
+    margin-top: 20px; }
+    .footer-page .follow-us ul {
+      padding-left: 0; }
+      @media (max-width: 767px) {
+        .footer-page .follow-us ul {
+          display: flex;
+          justify-content: center;
+          justify-items: center; } }
+      .footer-page .follow-us ul li {
+        list-style: none;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #868E96;
+        float: left;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 50%; }
+        .footer-page .follow-us ul li a {
+          color: #868E96;
+          font-size: 11px;
+          line-height: 24px;
+          display: table; }
+          .footer-page .follow-us ul li a .fa {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border-color: transparent; }
+        .footer-page .follow-us ul li:hover {
+          border-color: #fff; }
+          .footer-page .follow-us ul li:hover a {
+            color: #fff; }
+  @media (max-width: 767px) {
+    .footer-page .footer-bottom .copy-right {
+      display: flex;
+      justify-content: center;
+      justify-items: center; } }
+  .footer-page .footer-bottom .copy-right p {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    line-height: 14px;
+    color: #fff; }
+    @media (max-width: 767px) {
+      .footer-page .footer-bottom .copy-right p {
+        float: left; } }
+  .footer-page .footer-bottom .footer-bottom-right ul {
+    padding-left: 0; }
+    @media (max-width: 767px) {
+      .footer-page .footer-bottom .footer-bottom-right ul {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 0;
+        margin-top: 10px; } }
+    .footer-page .footer-bottom .footer-bottom-right ul li {
+      float: left;
+      list-style: none;
+      margin-right: 72px; }
+      @media (max-width: 767px) {
+        .footer-page .footer-bottom .footer-bottom-right ul li {
+          margin-right: 20px; } }
+      .footer-page .footer-bottom .footer-bottom-right ul li:last-child {
+        margin-right: 0; }
+      .footer-page .footer-bottom .footer-bottom-right ul li a {
+        color: #868E96;
+        font-size: 12px;
+        line-height: 19px;
+        font-family: "Lato-Regular"; }
+        .footer-page .footer-bottom .footer-bottom-right ul li a:hover {
+          color: #fff; }
